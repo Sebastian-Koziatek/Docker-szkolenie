@@ -1,5 +1,5 @@
 # Volumes
-![pod](/Nowe/grafiki/volumes.png)
+![pod](/grafiki/volumes.png)
 
 Pliki na dysku w kontenerze są efemeryczne, co stwarza pewne problemy w przypadku nietrywialnych aplikacji działających w kontenerach. Jednym z problemów jest utrata plików w przypadku awarii kontenera. Kubelet ponownie uruchamia kontener, ale z czystym stanem. Drugi problem występuje podczas udostępniania plików między kontenerami działającymi razem w pode. Abstrakcja woluminu Kubernetes rozwiązuje oba te problemy.
 

@@ -1,5 +1,5 @@
 # Deployment 
-![deployment](/Nowe/grafiki/deployment.png)
+![deployment](/grafiki/deployment.png)
 
 Kubernetes `Deployment` informuje Kubernetes, jak tworzyć lub modyfikować wystąpienia podów, które przechowują aplikację kontenerową. Wdrożenia mogą pomóc w efektywnym skalowaniu liczby `ReplicaSet`, umożliwieniu wdrożenia zaktualizowanego kodu w kontrolowany sposób lub przywróceniu w razie potrzeby wcześniejszej wersji wdrożenia. Wdrożenia Kubernetes są wykonywane przy użyciu kubectl, narzędzia wiersza polecenia, które można zainstalować na różnych platformach, w tym Linux, macOS i Windows.
 

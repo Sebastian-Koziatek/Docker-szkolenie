@@ -1,5 +1,5 @@
 # ConfigMap
-![pod](/Nowe/grafiki/configmap.png)
+![pod](/grafiki/configmap.png)
 
 `ConfigMap` to obiekt interfejsu API używany do przechowywania niepoufnych danych w parach klucz-wartość. Pody mogą wykorzystywać `ConfigMaps` jako zmienne środowiskowe, argumenty wiersza polecenia lub jako pliki konfiguracyjne w woluminie.
 

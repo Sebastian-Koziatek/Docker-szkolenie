@@ -1,6 +1,6 @@
 ## POD
 
-![pod](/Nowe/grafiki/pod.png)
+![pod](/grafiki/pod.png)
 
 - `Pod` to najmniejsza jednostka wykonawcza w Kubernetes. 
 - `Pod` zawiera jedną lub więcej aplikacji. 

@@ -1,6 +1,6 @@
 ### Urchamianie aplikacji javy w kontenerze na przykładzie springboot
 
-1. Zajrzyj na strone springboota. Pozwala on przyśpieszyc i ułątwić budowanie alikacji webowych i mikroserwisów we frameworku spring.   
+1. Zajrzyj na strone springboota. Pozwala on przyśpieszyc i ułatwić budowanie alikacji webowych i mikroserwisów we frameworku spring.   
 
 `https://start.spring.io/`
 

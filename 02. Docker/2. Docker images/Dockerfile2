@@ -1,4 +1,4 @@
 FROM alpine
-LABEL imagetype="szkolenie"
+LABEL imagetype="my-hello-world"
 ENTRYPOINT ["/bin/echo", "Hello"]
 CMD ["world"]

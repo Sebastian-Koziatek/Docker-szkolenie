@@ -1,6 +1,6 @@
 # Secrets
 
-![secrets](/Nowe/grafiki/secrets.png)
+![secrets](/grafiki/secrets.png)
 
 `Secrets` to obiekt zawierający niewielką ilość poufnych danych, takich jak hasło, token lub klucz. Użycie klucza tajnego oznacza, że ​​nie musisz zawierać poufnych danych w kodzie aplikacji.
 

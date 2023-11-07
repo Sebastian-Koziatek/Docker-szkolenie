@@ -10,8 +10,7 @@ curl --unix-socket /var/run/docker.sock http://localhost/version
 > Reasumując jeżli kontenerowi dockera umożliwimy komunikację z socketem demona dockera to możemy uruchomić dockera w dockerze np tak:
 
 ```
-docker run -v /var/run/docker.sock:/var/run/docker.sock \
-           -ti docker
+docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock docker /bin/sh
 ```
 
 > UWAGA! - jeżeli przekażesz kontenerowi docker.sock to pamiętaj że kontener będzie miał więcej uprawnień nad demonem dockera na twoim hoście. Więc kiedy chcesz tego użyć w celach produkcyjnych to miej to na uwadze `(ale lepiej unikaj)`!
