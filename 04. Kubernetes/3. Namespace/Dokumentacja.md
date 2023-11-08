@@ -1,6 +1,6 @@
 # Namespace
 
-![namespaces](/Nowe/grafiki/namespaces.png)
+![namespaces](/grafiki/namespaces.png)
 
 
 `Przestrzenie nazw` to sposób organizowania klastrów w wirtualne podklastry. W klastrze obsługiwana jest dowolna liczba namespaces, z których każda jest logicznie oddzielona od innych, ale z możliwością komunikowania się ze sobą. Przestrzenie nazw nie mogą być zagnieżdżane w sobie.

@@ -14,7 +14,11 @@ docker run -it busybox sh
 1. Używając docker-compose.yml w głownym katalogu, stwórz kontenery na obrazie ubuntu.
 2. Pobierz informacje na temat adresu IP z kontenera o nazwie `ubuntunet2`
 3. Wejdz do shella kontenera `ubuntunet1` 
-4. Zainstaluj pakiet potrzebny do wykonania polecenia `ping` (pakiet: iputils-ping)
+4. Zainstaluj pakiet potrzebny do wykonania polecenia `ping` (pakiet: iputils-ping oraz pakiet iproute2 do sprwadzenia adresu ip)
+```
+apt update
+apt install iputils-ping iproute2
+``` 
 5. Wykonaj ping poadając adres IP `ubuntunet2`
 6. Czy kontenery da się pingować między soboą?
 7. Zatrzymaj działające kontnery

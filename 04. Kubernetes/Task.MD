@@ -1,26 +1,6 @@
 
-
-#  POD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Uruchamiamy poda i wystawiamy go na świat. 
-____
+<h1>POD</h1>
+Uruchamiamy poda i wystawiamy go na świat. <br>
 
 W katalogu POD znajduje się przygotowany prosty plik yaml z nginx.
 
@@ -52,7 +32,7 @@ kubectl delete pod nginx
 
 # Uruchomienie poda i wystawienie go na świat na przykłądzie kubernetesa z 2 nodami i publicznym adresem IP.
 
-1. Skorzystami z gotowego kontenera który zawiera skrypt loudbalancera.
+1. Skorzystami z gotowego obrazu kontenera który zawiera prosty skrypt wyśweietlający dane hostingu.
 
 ```
 kubectl apply -f https://k8s.io/examples/service/load-balancer-example.yaml
@@ -62,6 +42,8 @@ kubectl apply -f https://k8s.io/examples/service/load-balancer-example.yaml
    
 ```
 kubectl create deployment hello-node --image=registry.k8s.io/e2e-test-images/agnhost:2.39 -- /agnhost netexec --http-port=8080
+```
+```
 kubectl describe deployments hello-node
 
 ```

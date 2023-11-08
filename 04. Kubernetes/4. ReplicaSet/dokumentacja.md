@@ -1,6 +1,6 @@
 # ReplicaSet
 
-![replicaset](/Nowe/grafiki/replicaset.png)
+![replicaset](/grafiki/replicaset.png)
 
 Celem `ReplicaSet` jest utrzymanie stabilnego zestawu replik podów działających w dowolnym momencie. Jako taki jest często używany do zagwarantowania dostępności określonej liczby identycznych Podów.
 
